@@ -7,7 +7,7 @@ const app = new Hono();
 app.use(
   "*",
   cors({
-    origin: "https://ip-demo-nine.vercel.app/",
+    origin: "https://ip-demo-nine.vercel.app",
     allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowHeaders: ["Content-Type", "Authorization"],
     exposeHeaders: ["Content-Length"],
